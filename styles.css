@@ -178,3 +178,52 @@ footer{
 footer p{
 color: #7d7640;
 }
+
+#mobile{
+    display: none;
+}
+
+@media (max-width:756px){
+    #container{
+        min-width: 0px;
+        background: #EFEACC;
+    }
+
+    #principal , #secundario , #secundario img{
+        float: none;
+        width: 100%;
+    }
+
+    #paginas{
+     height: 100%;
+     width: 100%;
+    }
+    
+    .conteudo{
+        padding:20px;
+    }
+
+}
+
+@media (max-width: 477px){
+#area-menu{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#paginas{
+    background:none;
+}
+
+#cidades li , #cidades button{
+    display: none;
+    background: url(imagens/logo.png) no-repeat right top;
+}
+
+#cidades{
+    height: 60px;
+    background: url(imagens/logo.png) no-repeat right top;
+}
+
+}
